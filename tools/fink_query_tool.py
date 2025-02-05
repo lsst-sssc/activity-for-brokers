@@ -53,7 +53,7 @@ def get_fink_data(objname, verbose=True):
 #   print(f'It is now: {now}')
     # get data for 2016 UU121
     r = requests.post(
-        'https://fink-portal.org/api/v1/sso',
+        'https://api.fink-portal.org/api/v1/sso',
         json={
             'n_or_d': '2016 UU121',
             'withEphem': True,
