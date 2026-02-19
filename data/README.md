@@ -30,7 +30,6 @@ Each `.csv` file includes the following columns:
 The filenames follow the format: `<objname>_<surveyname>.csv`
 
 - **Typical Jupiter-Family Comet (JFC)**: [`19P_ATLAS.csv`](./19P_ATLAS.csv)
-- **Outburst Events**: [`46P_ZTF.csv`](./46P_ZTF.csv), [`46P_ZTF_FINK.csv`](./46P_ZTF_FINK.csv)
 - **Seasonal Effects**: [`67P_ATLAS.csv`](./67P_ATLAS.csv)
 - **High Signal-to-Noise Ratio (SNR)**: [`104P_ATLAS.csv`](./104P_ATLAS.csv)
 - **Solar Conjunction and Multiple Apparitions**: [`117P_ATLAS.csv`](./117P_ATLAS.csv)
@@ -44,6 +43,15 @@ The filenames follow the format: `<objname>_<surveyname>.csv`
 - **Active Centaur**: ['Chiron_ZTF_FINK.csv'](./Chiron_ZTF_FINK.csv)
 - **Special Active Centaur**: ['Echeclus_ZTF_FINK.csv'](./Echeclus_ZTF_FINK.csv)
 
+### Outburst Events
+
+- **46P/Wirtanen**: [`46P_ZTF.csv`](./46P_ZTF.csv), [`46P_ZTF_FINK.csv`](./46P_ZTF_FINK.csv)
+- **97P/Metcalf-Brewington**: [`97P_ATLAS.csv`](./97P_ATLAS.csv)
+- **99P/Kowal 1**: [`99P_ATLAS.csv`](./99P_ATLAS.csv)
+- **118P/Shoemaker-Levy 4**: [`118P_ATLAS.csv`](./118P_ATLAS.csv)
+- **285P/LINEAR**: [`285P_ATLAS.csv`](./285P_ATLAS.csv)
+- **382P/Larson** [`382P_ATLAS.csv`](./382P_ATLAS.csv)
+
 ## Data Sources
 
 The data presented in this repository comes from the following publications:
@@ -51,6 +59,7 @@ The data presented in this repository comes from the following publications:
 - Ye et al., 2019 (ZTF - Gault)
 - Kelley et al., 2021 (ZTF - 46P)
 - Holt et al., 2024 (LOOK)
-- Gillan et al., *in prep* (ATLAS)
+- Gillan et al., 2024, Gillan et al., 2025 (ATLAS)
 - Chandler et al., 2024a (2016 UU121), 2024b (TailNet0, *in prep*)
 - FINK Broker
+
